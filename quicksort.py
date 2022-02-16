@@ -9,4 +9,4 @@ def quicksort( array ):
 		return quicksort( less ) + [ pivot ] + quicksort( greater )
 
 
-print( quicksort( [ 5, 64, 7, 2, 1 ] ) )
+print( quicksort( [ 5, 64, 7, 2, 1, 5, 6, 1 ] ) )
